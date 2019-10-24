@@ -2,15 +2,29 @@
 export libgdk3, libgtk3, libgailutil3
 
 using Glib_jll
-using Pango_jll
-using gdk_pixbuf_jll
-using ATK_jll
-using Libepoxy_jll
-using adwaita_icon_theme_jll
 using Cairo_jll
+using Pango_jll
+using FriBidi_jll
+using FreeType2_jll
+using gdk_pixbuf_jll
+using Libepoxy_jll
+using ATK_jll
 using HarfBuzz_jll
-using Graphene_jll
+using xkbcommon_jll
 using iso_codes_jll
+using Wayland_jll
+using Xorg_libXrandr_jll
+using Xorg_libX11_jll
+using Xorg_libXrender_jll
+using Xorg_libXi_jll
+using Xorg_libXext_jll
+using Xorg_libXcursor_jll
+using Xorg_libXdamage_jll
+using Xorg_libXfixes_jll
+using Xorg_libXcomposite_jll
+using Xorg_libXinerama_jll
+using Fontconfig_jll
+using at_spi2_atk_jll
 ## Global variables
 PATH = ""
 LIBPATH = ""
@@ -66,8 +80,8 @@ function __init__()
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    append!.(Ref(PATH_list), (Glib_jll.PATH_list, Pango_jll.PATH_list, gdk_pixbuf_jll.PATH_list, ATK_jll.PATH_list, Libepoxy_jll.PATH_list, adwaita_icon_theme_jll.PATH_list, Cairo_jll.PATH_list, HarfBuzz_jll.PATH_list, Graphene_jll.PATH_list, iso_codes_jll.PATH_list,))
-    append!.(Ref(LIBPATH_list), (Glib_jll.LIBPATH_list, Pango_jll.LIBPATH_list, gdk_pixbuf_jll.LIBPATH_list, ATK_jll.LIBPATH_list, Libepoxy_jll.LIBPATH_list, adwaita_icon_theme_jll.LIBPATH_list, Cairo_jll.LIBPATH_list, HarfBuzz_jll.LIBPATH_list, Graphene_jll.LIBPATH_list, iso_codes_jll.LIBPATH_list,))
+    append!.(Ref(PATH_list), (Glib_jll.PATH_list, Cairo_jll.PATH_list, Pango_jll.PATH_list, FriBidi_jll.PATH_list, FreeType2_jll.PATH_list, gdk_pixbuf_jll.PATH_list, Libepoxy_jll.PATH_list, ATK_jll.PATH_list, HarfBuzz_jll.PATH_list, xkbcommon_jll.PATH_list, iso_codes_jll.PATH_list, Wayland_jll.PATH_list, Xorg_libXrandr_jll.PATH_list, Xorg_libX11_jll.PATH_list, Xorg_libXrender_jll.PATH_list, Xorg_libXi_jll.PATH_list, Xorg_libXext_jll.PATH_list, Xorg_libXcursor_jll.PATH_list, Xorg_libXdamage_jll.PATH_list, Xorg_libXfixes_jll.PATH_list, Xorg_libXcomposite_jll.PATH_list, Xorg_libXinerama_jll.PATH_list, Fontconfig_jll.PATH_list, at_spi2_atk_jll.PATH_list,))
+    append!.(Ref(LIBPATH_list), (Glib_jll.LIBPATH_list, Cairo_jll.LIBPATH_list, Pango_jll.LIBPATH_list, FriBidi_jll.LIBPATH_list, FreeType2_jll.LIBPATH_list, gdk_pixbuf_jll.LIBPATH_list, Libepoxy_jll.LIBPATH_list, ATK_jll.LIBPATH_list, HarfBuzz_jll.LIBPATH_list, xkbcommon_jll.LIBPATH_list, iso_codes_jll.LIBPATH_list, Wayland_jll.LIBPATH_list, Xorg_libXrandr_jll.LIBPATH_list, Xorg_libX11_jll.LIBPATH_list, Xorg_libXrender_jll.LIBPATH_list, Xorg_libXi_jll.LIBPATH_list, Xorg_libXext_jll.LIBPATH_list, Xorg_libXcursor_jll.LIBPATH_list, Xorg_libXdamage_jll.LIBPATH_list, Xorg_libXfixes_jll.LIBPATH_list, Xorg_libXcomposite_jll.LIBPATH_list, Xorg_libXinerama_jll.LIBPATH_list, Fontconfig_jll.LIBPATH_list, at_spi2_atk_jll.LIBPATH_list,))
 
     global libgdk3_path = abspath(joinpath(artifact"GTK3", libgdk3_splitpath...))
 
