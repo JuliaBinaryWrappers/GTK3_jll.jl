@@ -1,113 +1,113 @@
 [[GTK3]]
+arch = "i686"
+git-tree-sha1 = "e0d619ce620ddd188e5f54202eee45cb6a7452d1"
+libc = "musl"
+os = "linux"
+
+    [[GTK3.download]]
+    sha256 = "9c51e3696b8a149faec94c9dd97442b4797f9d156f8eb4196ee017a1630cd944"
+    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+2/GTK3.v3.24.11.i686-linux-musl.tar.gz"
+[[GTK3]]
+arch = "aarch64"
+git-tree-sha1 = "ca1566026d2a22df07cf8dd6b3549d927cd50f3c"
+libc = "musl"
+os = "linux"
+
+    [[GTK3.download]]
+    sha256 = "f4aabae63a7be12d165f1d2c002859f060f2bddb7861163f267c536c87973da9"
+    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+2/GTK3.v3.24.11.aarch64-linux-musl.tar.gz"
+[[GTK3]]
+arch = "i686"
+git-tree-sha1 = "d26fefe6e481dce060894c2ef188d82a532cae6d"
+os = "windows"
+
+    [[GTK3.download]]
+    sha256 = "7b224b6232c496bdd406c34407daedbf9f170c9ff14db0e0d56db7aade2b76ac"
+    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+2/GTK3.v3.24.11.i686-w64-mingw32.tar.gz"
+[[GTK3]]
 arch = "x86_64"
-git-tree-sha1 = "df170e77ddcd59c018c7abe5dddd5a7bcbf8b5eb"
+git-tree-sha1 = "76a98125f2eea85e7700b6b0c554861f78a90f11"
+os = "windows"
+
+    [[GTK3.download]]
+    sha256 = "cfb201bc190e13c3d482f1b68f15c0969d5e25fdd7896ef8fd5915079ce47f86"
+    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+2/GTK3.v3.24.11.x86_64-w64-mingw32.tar.gz"
+[[GTK3]]
+arch = "armv7l"
+git-tree-sha1 = "39dce2104fa85e785ad7225015f0e8c89ea3ac74"
+libc = "glibc"
+os = "linux"
+
+    [[GTK3.download]]
+    sha256 = "d4c141a879670b6f0f17491ee3574a82cf5baf82414c3916796a7a7205419449"
+    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+2/GTK3.v3.24.11.armv7l-linux-gnueabihf.tar.gz"
+[[GTK3]]
+arch = "armv7l"
+git-tree-sha1 = "2fdf3268879fca897df07b36c54a6a37a662b5a6"
+libc = "musl"
+os = "linux"
+
+    [[GTK3.download]]
+    sha256 = "56415abfe40509fa8d8d6da91089dd68aa9ef50801a18e0d4e8676432329ea2f"
+    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+2/GTK3.v3.24.11.armv7l-linux-musleabihf.tar.gz"
+[[GTK3]]
+arch = "i686"
+git-tree-sha1 = "4f235c76a49153396aeb285b4b61bc2ddb823b8d"
+libc = "glibc"
+os = "linux"
+
+    [[GTK3.download]]
+    sha256 = "40d00597e79b436c3b8074e8b661683ca971f868b76fcaff6ea110bb7591e3de"
+    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+2/GTK3.v3.24.11.i686-linux-gnu.tar.gz"
+[[GTK3]]
+arch = "x86_64"
+git-tree-sha1 = "f8d26d2a3d9e3edbae4e4c96a64e92b1f44d41b6"
+libc = "glibc"
+os = "linux"
+
+    [[GTK3.download]]
+    sha256 = "fedaafa9f052acd872dd23d3a25e4f0065e20f477827e528befabb536b543dc2"
+    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+2/GTK3.v3.24.11.x86_64-linux-gnu.tar.gz"
+[[GTK3]]
+arch = "powerpc64le"
+git-tree-sha1 = "ca5ea399ac43e7d7297962f465e1ef0f780e56c8"
+libc = "glibc"
+os = "linux"
+
+    [[GTK3.download]]
+    sha256 = "c73fb41eb6a1785fde122f88d108a0cfd0c2c9f9935eb050ffe6d651c77a8cc1"
+    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+2/GTK3.v3.24.11.powerpc64le-linux-gnu.tar.gz"
+[[GTK3]]
+arch = "x86_64"
+git-tree-sha1 = "5a1a46db7edd03da52f7fac104a33273091a5174"
 os = "macos"
 
     [[GTK3.download]]
-    sha256 = "9fd8f30f0306d75cf71332f39556289e11a2d991eab08eef8f467c169976ab16"
-    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+1/GTK3.v3.24.11.x86_64-apple-darwin14.tar.gz"
+    sha256 = "a5faeae7265229cb84a510b856bfdc8e205e7af0379855cbc977ac50d384e48f"
+    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+2/GTK3.v3.24.11.x86_64-apple-darwin14.tar.gz"
 [[GTK3]]
-arch = "i686"
-git-tree-sha1 = "809c455f92e3ccab4f4b390a117abf1f52eb71f8"
+arch = "aarch64"
+git-tree-sha1 = "14a75219725c34c60ab4693d4d2edf581d8e04e9"
 libc = "glibc"
 os = "linux"
 
     [[GTK3.download]]
-    sha256 = "18781f017b188770ebff146979b88a9caeeba8dc55158d32cf87dd938cbb6e56"
-    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+1/GTK3.v3.24.11.i686-linux-gnu.tar.gz"
+    sha256 = "c3f866d1b72005e562cd9aea0dc2257d687f82811386fbe1f9d96142150c81c7"
+    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+2/GTK3.v3.24.11.aarch64-linux-gnu.tar.gz"
 [[GTK3]]
 arch = "x86_64"
-git-tree-sha1 = "b8e634f0842a9f1d9f8147666b758006e8e3419a"
+git-tree-sha1 = "76465c0c1d78cfdfa37ee80524de82e60b6a9fd2"
 os = "freebsd"
 
     [[GTK3.download]]
-    sha256 = "4278646c9b77a5b6b4f12ef83f57640f1415c11db82cf5dff7507394357ebf4a"
-    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+1/GTK3.v3.24.11.x86_64-unknown-freebsd11.1.tar.gz"
-[[GTK3]]
-arch = "powerpc64le"
-git-tree-sha1 = "52b891f5d58308e6252b0d23ac5f4ef81226200d"
-libc = "glibc"
-os = "linux"
-
-    [[GTK3.download]]
-    sha256 = "e73ab33aedfafd6b909ff687811a1655d4f2035db4615b2c0ebad78a54520dae"
-    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+1/GTK3.v3.24.11.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "6a2f5ceb32acb211161b5ec29045bd46719d23bce3f24c891fabd2e2ccff6423"
+    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+2/GTK3.v3.24.11.x86_64-unknown-freebsd11.1.tar.gz"
 [[GTK3]]
 arch = "x86_64"
-git-tree-sha1 = "57e229d1e37fb05cd36ce2afb2c1183f0d2c8bd8"
+git-tree-sha1 = "d55ade8ecb667579d974ec2ee35cfc0c5dd31523"
 libc = "musl"
 os = "linux"
 
     [[GTK3.download]]
-    sha256 = "e67d28172fe6748cb05cef70d95c5d71c53739156af94ed27501289de6453b8d"
-    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+1/GTK3.v3.24.11.x86_64-linux-musl.tar.gz"
-[[GTK3]]
-arch = "x86_64"
-git-tree-sha1 = "6fe572c3cf2a1fc8f53d2f4b980d9537845dd62d"
-libc = "glibc"
-os = "linux"
-
-    [[GTK3.download]]
-    sha256 = "72b762fca4c7b091789bb058a8ccc791edd8f8f12e3339d746202cf93607dc8c"
-    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+1/GTK3.v3.24.11.x86_64-linux-gnu.tar.gz"
-[[GTK3]]
-arch = "x86_64"
-git-tree-sha1 = "3c9257b9a1c9549889c3d9003ff0bc737e7af2f5"
-os = "windows"
-
-    [[GTK3.download]]
-    sha256 = "75e8f2001300ac8c476f8ba17ae63eb00274a1980c1f4716ce71c4a298079647"
-    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+1/GTK3.v3.24.11.x86_64-w64-mingw32.tar.gz"
-[[GTK3]]
-arch = "aarch64"
-git-tree-sha1 = "c0212cca8ed0bc37447f0e924c2ccf71dc71af98"
-libc = "musl"
-os = "linux"
-
-    [[GTK3.download]]
-    sha256 = "46e903e060ab69eb791810b352a0e0e5c88bbdcb7a58c05c039616beba173197"
-    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+1/GTK3.v3.24.11.aarch64-linux-musl.tar.gz"
-[[GTK3]]
-arch = "armv7l"
-git-tree-sha1 = "7246ab66fc873a0c02b4bfc2dc24810df2535695"
-libc = "glibc"
-os = "linux"
-
-    [[GTK3.download]]
-    sha256 = "190ca9d27a107ed65ed672aec6240c53cf5d4961eca1951133746e3cfb1a22e8"
-    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+1/GTK3.v3.24.11.arm-linux-gnueabihf.tar.gz"
-[[GTK3]]
-arch = "i686"
-git-tree-sha1 = "2adb00f8a8e33e66bc6ce9603c50dd4e6bd26092"
-libc = "musl"
-os = "linux"
-
-    [[GTK3.download]]
-    sha256 = "befb6547422503cc63421dc8fdf98d7b2b5e1ebdc8787ec7c74cdd58ae310689"
-    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+1/GTK3.v3.24.11.i686-linux-musl.tar.gz"
-[[GTK3]]
-arch = "armv7l"
-git-tree-sha1 = "03ca498975f6ca55ebb2b7742926153d885a55f7"
-libc = "musl"
-os = "linux"
-
-    [[GTK3.download]]
-    sha256 = "67f7c5092895fc3836c3f3c16585959af6b3829ddb2290fa058a12c3e91e3ef6"
-    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+1/GTK3.v3.24.11.arm-linux-musleabihf.tar.gz"
-[[GTK3]]
-arch = "aarch64"
-git-tree-sha1 = "9871791c38b3d6f3d11fe91e27688c72287ce0bf"
-libc = "glibc"
-os = "linux"
-
-    [[GTK3.download]]
-    sha256 = "b137bfd6f741cc52c17331ebd89a73cd463a10cbbda020e49f2485bc5e2c657e"
-    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+1/GTK3.v3.24.11.aarch64-linux-gnu.tar.gz"
-[[GTK3]]
-arch = "i686"
-git-tree-sha1 = "1b59aa8ea005deccf31798b8f87bc367a735de68"
-os = "windows"
-
-    [[GTK3.download]]
-    sha256 = "05c425080f2feb07e55564455f2a58a8ba772911e79ddd1eb3910e76563c41ed"
-    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+1/GTK3.v3.24.11.i686-w64-mingw32.tar.gz"
+    sha256 = "2482b614c31d1dee8e2f2d304393eff6d400742e5ddc702748894f30332fe6d2"
+    url = "https://github.com/JuliaBinaryWrappers/GTK3_jll.jl/releases/download/GTK3-v3.24.11+2/GTK3.v3.24.11.x86_64-linux-musl.tar.gz"
