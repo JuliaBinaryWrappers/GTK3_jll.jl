@@ -1,6 +1,6 @@
 name = "GTK3_jll"
 uuid = "77ec8976-b24b-556a-a1bf-49a033a670a6"
-version = "3.24.11+5"
+version = "3.24.29+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -33,5 +33,6 @@ ATK_jll = "7b86fcea-f67b-53e1-809c-8f1719c154e8"
 Xorg_libXi_jll = "a51aa0fd-4e3c-5386-b890-e753decda492"
 
 [compat]
-JLLWrappers = "1.1.0"
+JLLWrappers = "1.2.0"
 julia = "1.0"
+ATK_jll = "2.35.1"
