@@ -1,6 +1,6 @@
 name = "GTK3_jll"
 uuid = "77ec8976-b24b-556a-a1bf-49a033a670a6"
-version = "3.24.30+1"
+version = "3.24.31+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
